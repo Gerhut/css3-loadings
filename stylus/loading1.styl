@@ -1,0 +1,31 @@
+size = 50px
+length = 12px
+thickness = 2px
+color = gray
+duration = 300ms
+
+#loading1
+  width size
+  height size
+
+  span
+    position absolute
+
+    display block
+    width length
+    height: ((size - thickness) / 2)
+    
+    border-bottom thickness solid color
+    transform-origin (size / 2) (size / 2)
+    animation loading1 duration linear infinite
+
+  for i in (0...12)
+    span:nth-child({i + 1})
+      transform rotate((30 * i)deg)
+      animation-delay (duration / 12 * i)
+
+@keyframes loading1
+  from
+    opacity 1
+  to
+    opacity 0

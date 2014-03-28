@@ -1,0 +1,26 @@
+{
+  "name": "css3-loadings",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Gerhut/css3-loadings",
+  "authors": [
+    "Gerhut <Gerhut@GMail.com>"
+  ],
+  "description": "CSS3实现的loading图标",
+  "main": "index.html",
+  "keywords": [
+    "css3",
+    "loading",
+    "icon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nib": "~1.0.2"
+  }
+}

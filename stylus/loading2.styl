@@ -1,0 +1,27 @@
+loading2(size = 10px, padding = 4px, color = red, duration = 500ms)
+  width size * 3 + padding * 2
+  height size * 3 + padding * 2
+
+  span
+    width size
+    height size
+
+    float left
+    margin-right padding
+    margin-bottom padding
+
+    background-color color
+
+  span:nth-child(3n)
+    margin 0
+
+  for value, index in (1 2 3 6 9 8 7 4)
+    span:nth-child({value})
+      animation loading2 duration linear infinite
+      animation-delay (index * duration * 3 / 28)
+
+@keyframes loading2
+  25%
+    opacity 0
+  50%
+    opacity 1

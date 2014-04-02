@@ -320,7 +320,7 @@ a img {
   animation-delay: 275ms;
 }
 @-moz-keyframes loading2 {
-  25% {
+  0% {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -333,7 +333,7 @@ a img {
   }
 }
 @-webkit-keyframes loading2 {
-  25% {
+  0% {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -346,7 +346,7 @@ a img {
   }
 }
 @-o-keyframes loading2 {
-  25% {
+  0% {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -359,7 +359,7 @@ a img {
   }
 }
 @-ms-keyframes loading2 {
-  25% {
+  0% {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -372,7 +372,7 @@ a img {
   }
 }
 @keyframes loading2 {
-  25% {
+  0% {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -400,11 +400,11 @@ a img {
   margin: 0;
 }
 #loading2 span:nth-child(1) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
   -webkit-animation-delay: 0ms;
   -moz-animation-delay: 0ms;
   -o-animation-delay: 0ms;
@@ -412,86 +412,86 @@ a img {
   animation-delay: 0ms;
 }
 #loading2 span:nth-child(2) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
-  -webkit-animation-delay: 53.57142857142857ms;
-  -moz-animation-delay: 53.57142857142857ms;
-  -o-animation-delay: 53.57142857142857ms;
-  -ms-animation-delay: 53.57142857142857ms;
-  animation-delay: 53.57142857142857ms;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
+  -webkit-animation-delay: 62.5ms;
+  -moz-animation-delay: 62.5ms;
+  -o-animation-delay: 62.5ms;
+  -ms-animation-delay: 62.5ms;
+  animation-delay: 62.5ms;
 }
 #loading2 span:nth-child(3) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
-  -webkit-animation-delay: 107.14285714285714ms;
-  -moz-animation-delay: 107.14285714285714ms;
-  -o-animation-delay: 107.14285714285714ms;
-  -ms-animation-delay: 107.14285714285714ms;
-  animation-delay: 107.14285714285714ms;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
+  -webkit-animation-delay: 125ms;
+  -moz-animation-delay: 125ms;
+  -o-animation-delay: 125ms;
+  -ms-animation-delay: 125ms;
+  animation-delay: 125ms;
 }
 #loading2 span:nth-child(6) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
-  -webkit-animation-delay: 160.71428571428572ms;
-  -moz-animation-delay: 160.71428571428572ms;
-  -o-animation-delay: 160.71428571428572ms;
-  -ms-animation-delay: 160.71428571428572ms;
-  animation-delay: 160.71428571428572ms;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
+  -webkit-animation-delay: 187.5ms;
+  -moz-animation-delay: 187.5ms;
+  -o-animation-delay: 187.5ms;
+  -ms-animation-delay: 187.5ms;
+  animation-delay: 187.5ms;
 }
 #loading2 span:nth-child(9) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
-  -webkit-animation-delay: 214.28571428571428ms;
-  -moz-animation-delay: 214.28571428571428ms;
-  -o-animation-delay: 214.28571428571428ms;
-  -ms-animation-delay: 214.28571428571428ms;
-  animation-delay: 214.28571428571428ms;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
+  -webkit-animation-delay: 250ms;
+  -moz-animation-delay: 250ms;
+  -o-animation-delay: 250ms;
+  -ms-animation-delay: 250ms;
+  animation-delay: 250ms;
 }
 #loading2 span:nth-child(8) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
-  -webkit-animation-delay: 267.85714285714283ms;
-  -moz-animation-delay: 267.85714285714283ms;
-  -o-animation-delay: 267.85714285714283ms;
-  -ms-animation-delay: 267.85714285714283ms;
-  animation-delay: 267.85714285714283ms;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
+  -webkit-animation-delay: 312.5ms;
+  -moz-animation-delay: 312.5ms;
+  -o-animation-delay: 312.5ms;
+  -ms-animation-delay: 312.5ms;
+  animation-delay: 312.5ms;
 }
 #loading2 span:nth-child(7) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
-  -webkit-animation-delay: 321.42857142857144ms;
-  -moz-animation-delay: 321.42857142857144ms;
-  -o-animation-delay: 321.42857142857144ms;
-  -ms-animation-delay: 321.42857142857144ms;
-  animation-delay: 321.42857142857144ms;
-}
-#loading2 span:nth-child(4) {
-  -webkit-animation: loading2 500ms linear infinite;
-  -moz-animation: loading2 500ms linear infinite;
-  -o-animation: loading2 500ms linear infinite;
-  -ms-animation: loading2 500ms linear infinite;
-  animation: loading2 500ms linear infinite;
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
   -webkit-animation-delay: 375ms;
   -moz-animation-delay: 375ms;
   -o-animation-delay: 375ms;
   -ms-animation-delay: 375ms;
   animation-delay: 375ms;
+}
+#loading2 span:nth-child(4) {
+  -webkit-animation: loading2 250ms linear infinite alternate;
+  -moz-animation: loading2 250ms linear infinite alternate;
+  -o-animation: loading2 250ms linear infinite alternate;
+  -ms-animation: loading2 250ms linear infinite alternate;
+  animation: loading2 250ms linear infinite alternate;
+  -webkit-animation-delay: 437.5ms;
+  -moz-animation-delay: 437.5ms;
+  -o-animation-delay: 437.5ms;
+  -ms-animation-delay: 437.5ms;
+  animation-delay: 437.5ms;
 }
